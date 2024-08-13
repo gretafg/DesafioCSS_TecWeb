@@ -151,3 +151,50 @@ body {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15), 0 7px 7px rgba(0,0,0,0.18); 
   height: 100px;
 }
+
+.card > * {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5; 
+}
+
+.card-color-3 {
+  background-color: #ef89ba; 
+}
+
+.card-color-4 {
+  background-color: #fae890; 
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 { transform: rotate(1deg); }
+.card-rotation-2 { transform: rotate(2deg); }
+.card-rotation-3 { transform: rotate(3deg); }
+.card-rotation-4 { transform: rotate(4deg); }
+.card-rotation-5 { transform: rotate(5deg); }
+.card-rotation-6 { transform: rotate(-1deg); }
+.card-rotation-7 { transform: rotate(-2deg); }
+.card-rotation-8 { transform: rotate(-3deg); }
+.card-rotation-9 { transform: rotate(-4deg); }
+.card-rotation-10 { transform: rotate(-5deg); }
+.card-rotation-11 { transform: rotate(-6deg); }

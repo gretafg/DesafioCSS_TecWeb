@@ -84,18 +84,18 @@ body {
   display: flex;
   align-items: center;
   background-color: #f7d736; 
-  padding: 10px 20px; 
+  padding: 15px 25px; 
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15), 0 7px 7px rgba(0,0,0,0.18);
 }
 
 .logo {
-  width: 50px; 
+  width: 60px; 
   height: auto; 
   margin-right: 10px; 
 }
 
 .subtitle {
-  font-size: 12px; 
+  font-size: 15px; 
   color: #000000; 
   font-weight: bold; 
 }
@@ -134,4 +134,20 @@ body {
   margin-bottom: 4px;
   padding-left: 10px;
   resize: none;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  width: 100%;
+  gap: 10px;
+}
+
+.card{
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15), 0 7px 7px rgba(0,0,0,0.18); 
+  height: 100px;
 }
